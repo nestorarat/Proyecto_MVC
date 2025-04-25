@@ -23,6 +23,8 @@
 			desarrolla:
 			i) direccionamiento de la petición del cliente en una URL.
 			ii) Prohibe mostrar el index de proyectos en la carpeta raiz.
+   
+<a href="#contents">REGRESAR.</a>
 
 <a id='descripcion'></a>
 ### Descripción.
@@ -147,6 +149,8 @@
 		```
 		</br>	
   
+  <a href="#contents">REGRESAR.</a>
+  
 <a id='actualizacion'></a>
 ### Actualización.
 
@@ -183,6 +187,7 @@
 							   $control = new Control();
 			```
 			</br>
+<a href="#contents">REGRESAR.</a>
 
 <a id='ejecucion'></a>
 ### Ejecución.
@@ -192,6 +197,8 @@
 					Modificar  				<- modifica un registro-atributo. 
 					Borrar     				<- borra un registro-atributo.
 					Agrega nuevo producto   <- actualiza un registro-atributo.
+<a href="#contents">REGRESAR.</a>
+
 <a id='glosario'></a>
 ### Glosario.
 
@@ -201,6 +208,8 @@
 			una forma de realizar cambios en la configuración en contexto directorio. 
 			Un fichero, que contiene una o más directivas, se coloca en un documento específico 
 			de un directorio, y estas directivas aplican a ese directorio y todos sus subdirectorios.
+<a href="#contents">REGRESAR.</a>
+
 <a id='referencias'></a>
 Referencias.
 
@@ -228,7 +237,7 @@ Referencias.
     Disponible en: ttps://www.youtube.com/watch?v=suJCaXZwO0o
     Consultado en: 25/03/2025
 
-<a href="#contents">Ir a Contenido.</a>
+<a href="#contents">REGRESAR.</a>
 
 <a id='persona'></a>
 A BOUT ME
@@ -236,3 +245,5 @@ A BOUT ME
 Estudiante de ingenieria en sistemas computacionlaes de 8vo semestre del Tecnologico Nacional de México.
 Yo soy Arat, elaborador de este poryecto de parcial.
 Este poryecto se basa en la renderizacion de la tabla productos usado con CRUD.
+<a href="#contents">REGRESAR.</a>
+
