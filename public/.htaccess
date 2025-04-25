@@ -1,0 +1,9 @@
+# Verifica si el módulo mod_rewrite está habilitado en el servidor
+<IfModule mod_rewrite.c>
+    Options -Multiviews                         # Deshabilita la opción Multiviews para evitar conflictos con URLs similares
+    RewriteEngine On                            # Habilita el motor de reescritura de URLs
+    RewriteBase /Proyecto_MVC/public/           # Establece la base para las reescrituras en el directorio /Proyecto_MVC/public/
+    RewriteCond %{REQUEST_FILENAME} !-d         # Redirige todas las solicitudes que no sean directorios existentes
+    RewriteCond %{REQUEST_FILENAME} !-f         # Redirige todas las solicitudes que no sean archivos existentes
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L] # Reescribe la URL para que apunte al archivo index.php con el parámetro "url"
+</IfModule>

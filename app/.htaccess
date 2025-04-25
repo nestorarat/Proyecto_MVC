@@ -1,0 +1,5 @@
+#Options -Indexes
+
+# Deshabilita la navegación por directorios para evitar que los usuarios vean el contenido de las carpetas
+# Si no existe un archivo de índice (como index.php o index.html), se mostrará un error 403 Forbidden
+# Esto mejora la seguridad del sitio web al proteger los archivos internos

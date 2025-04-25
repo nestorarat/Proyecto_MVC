@@ -1,0 +1,106 @@
+Contenido del arrayRecordSet:
+
+public function getProductos()
+{
+    $arrayRecordSet = $this->obj_mySQLdb->querySelect("SELECT * FROM productos");
+    var_dump("</br> arrayRecordSet:</br> ", $arrayRecordSet);
+    return $arrayRecordSet;
+}
+
+arrayRecordSet:
+" array(10) 
+{ 
+    [0]=> array(6) 
+         { 
+         ["pro_id"]=> string(2) "10" 
+         ["pro_nom"]=> string(6) "Adidas" 
+         ["pro_mar"]=> string(4) "Rojo" 
+         ["pro_cos"]=> string(5) "25.00" 
+         ["pro_pre"]=> string(6) "1500.00" 
+         ["pro_can"]=> string(1) "2" 
+         } 
+     
+    [1]=> array(6) 
+        { 
+        ["pro_id"]=> string(2) "12" 
+        ["pro_mar"]=> string(4) "Nike" 
+        ["pro_col"]=> string(4) "Azul" 
+        ["pro_ta"]=> string(5) "23.00" 
+        ["pro_pre"]=> string(6) "1300.00" 
+        ["pro_can"]=> string(1) "3" 
+        }
+    
+    [2]=> array(6) 
+        { 
+        ["pro_id"]=> string(2) "13" 
+        ["pro_nom"]=> string(4) "Puma" 
+        ["pro_mar"]=> string(4) "Azul" 
+        ["pro_cos"]=> string(5) "22.00" 
+        ["pro_pre"]=> string(6) "1500.00" 
+        ["pro_can"]=> string(1) "1" 
+        }
+    
+    [3]=> array(6)
+        { 
+        ["id"]=> string(1) "14" 
+        ["nombre"]=> string(7) "Adidas" 
+        ["marca"]=> string(5) "Levis" 
+        ["talla"]=> string(2) "32" 
+        ["color"]=> string(4) "Azul" 
+        ["precio"]=> string(5) "39.99" 
+        } 
+    [4]=> array(6)
+        { 
+        ["id"]=> string(1) "15"
+        ["nombre"]=> string(8) "Sombrero" 
+        ["marca"]=> string(7) "New Era" 
+        ["talla"]=> string(5) "Único" 
+        ["color"]=> string(5) "Negro" 
+        ["precio"]=> string(5) "19.99" 
+        }
+    [5]=> array(6)
+        { 
+        ["id"]=> string(1) "16"
+        ["nombre"]=> string(6) "Bufanda" 
+        ["marca"]=> string(6) "Gucci" 
+        ["talla"]=> string(5) "Único" 
+        ["color"]=> string(5) "Blanco" 
+        ["precio"]=> string(5) "49.99" 
+        }
+    [6]=> array(6)
+        { 
+        ["id"]=> string(1) "17"
+        ["nombre"]=> string(6) "Gorra" 
+        ["marca"]=> string(7) "Reebok" 
+        ["talla"]=> string(5) "Único" 
+        ["color"]=> string(4) "Gris" 
+        ["precio"]=> string(5) "15.99" 
+        }
+    [7]=> array(6)
+        { 
+        ["id"]=> string(1) "18"
+        ["nombre"]=> string(7) "Mochila" 
+        ["marca"]=> string(6) "Samson" 
+        ["talla"]=> string(5) "Grande" 
+        ["color"]=> string(5) "Negro" 
+        ["precio"]=> string(5) "79.99" 
+        }
+    [8]=> array(6)
+        { 
+        ["id"]=> string(1) "19"
+        ["nombre"]=> string(6) "Reloj" 
+        ["marca"]=> string(5) "Casio" 
+        ["talla"]=> string(5) "Único" 
+        ["color"]=> string(5) "Negro" 
+        ["precio"]=> string(5) "99.99" 
+        }
+    [9]=> array(6)
+        { 
+        ["id"]=> string(2) "20"
+        ["nombre"]=> string(6) "Cinturón" 
+        ["marca"]=> string(5) "Prada" 
+        ["talla"]=> string(2) "34" 
+        ["color"]=> string(5) "Marrón" 
+        ["precio"]=> string(5) "69.99" 
+        }
+}

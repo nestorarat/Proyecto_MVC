@@ -1,0 +1,11 @@
+url_alta.txt
+elemento	descripción
+
+http://		 define tipo de protocolo para el servidor Apache
+localhost/   define dirección IPv4 del servidor Apache
+Proyeto_MVC/ define nombre de la carpeta contenedora de la aplicación web
+productos/   define controlador
+alta/	     define método definido en Clase
+
+
+http://localhost/Proyecto_MVC/
