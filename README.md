@@ -1,5 +1,5 @@
-#ReadMe.md
-##MVC 		Muestra la implementación de 4 operaciones
+ReadMe.md
+MVC 		Muestra la implementación de 4 operaciones
             <Crear, Leer, Actualizar, Delete> 
 			sobre una base de datos con una organización de arquitectura por capas <Modelo,Vista,Controlador>.
 			
