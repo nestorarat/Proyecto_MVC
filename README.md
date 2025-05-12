@@ -229,13 +229,13 @@ Referencias.
 
     Disponible en: <https://www.php.net/manual/es/mysqli.construct.php>
 
-    MVC en PHP || Como hacer un proyecto MVC basico en PHP
+    MVC en PHP || Agregar login a programa web
     Disponible en: https://www.youtube.com/watch?v=JWi4_8_d-RM&t=386s
-    Consultado en: 25/03/2025
+    Consultado en: 12/05/2025
 
     MVC en nuestro proyecto con PHP y Composer 
     Disponible en: ttps://www.youtube.com/watch?v=suJCaXZwO0o
-    Consultado en: 25/03/2025
+    Consultado en: 12/05/2025
 
 <a href="#contents">REGRESAR.</a>
 
