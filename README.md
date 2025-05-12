@@ -244,6 +244,7 @@ A BOUT ME
 
 Estudiante de ingenieria en sistemas computacionlaes de 8vo semestre del Tecnologico Nacional de México.
 Yo soy Arat, elaborador de este poryecto de parcial.
-Este poryecto se basa en la renderizacion de la tabla productos usado con CRUD.
+Este poryecto se basa en la renderizacion de la tabla productos usado con CRUD
+Donde se puede manipular la tabla, actualizando, leyendo, eliminando y agregando registros dentro de la página y asi mismo de la base de datos.
 <a href="#contents">REGRESAR.</a>
 
